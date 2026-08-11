@@ -1,2 +1,2 @@
-# Opinion-form
+# Employee-Improvement -Suggestion_Form
 医療法人社団 月山会 職員向けご意見・報告システム（院内イントラネット連携用）
