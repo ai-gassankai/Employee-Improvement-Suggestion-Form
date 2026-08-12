@@ -775,8 +775,8 @@
                     if (!appState.adminPIN) {
                         appState.adminPIN = "1234";
                     }
-                    if (appState.gasURL === undefined) {
-                        appState.gasURL = "";
+                    if (!appState.gasURL || appState.gasURL.trim() === "") {
+                        appState.gasURL = DEFAULT_STATE.gasURL;
                     }
 
                     // Ensure existing local storage data receives the "複数選択可" label update
